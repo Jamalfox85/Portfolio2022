@@ -1,0 +1,79 @@
+/* Templates */
+.contact-button {
+  height: 36px;
+  width: 116px;
+  border: solid 2px #999;
+  outline: solid 1px #999;
+  outline-offset: -6px;
+  border-radius: 12px 2px;
+  color: #fff;
+  transition: 0.2s ease-in;
+  padding: 4px;
+}
+.contact-button:hover {
+  background-color: #fff;
+  color: #000;
+  outline: solid 1px #fff;
+  outline-offset: 4px;
+}
+
+/* Components */
+.nav-wrapper {
+  width: 100%;
+  padding: 2em;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.nav-wrapper .expand-menu .expand-menu-line {
+  height: 4px;
+  border-radius: 12px;
+  margin: 4px;
+  background-color: #999;
+  transition: 0.2s ease-in-out;
+}
+.nav-wrapper .expand-menu .expand-menu-line#line-1 {
+  width: 16px;
+}
+.nav-wrapper .expand-menu .expand-menu-line#line-2 {
+  width: 32px;
+}
+.nav-wrapper .expand-menu .expand-menu-line#line-3 {
+  width: 16px;
+}
+.nav-wrapper .expand-menu:hover {
+  cursor: pointer;
+}
+.nav-wrapper .expand-menu:hover .expand-menu-line {
+  background-color: #fff;
+}
+.nav-wrapper .expand-menu:hover #line-1 {
+  width: 32px;
+}
+.nav-wrapper .expand-menu:hover #line-2 {
+  width: 16px;
+}
+.nav-wrapper .expand-menu:hover #line-3 {
+  width: 32px;
+}
+
+.hero-wrapper {
+  height: 250px;
+  width: 50%;
+  position: absolute;
+  top: 20vh;
+  right: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.hero-wrapper h1 {
+  font-size: 5.96rem;
+}
+.hero-wrapper h2 {
+  font-size: 1.953rem;
+}
+.hero-wrapper button {
+  margin-top: auto;
+  transform: scale(1.5);
+}

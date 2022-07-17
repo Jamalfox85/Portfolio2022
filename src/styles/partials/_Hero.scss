@@ -1,0 +1,20 @@
+.hero-wrapper {
+	height: 250px;
+	width: 50%;
+	position: absolute;
+	top: 20vh;
+	right: 0;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	h1 {
+		font-size: 5.96rem;
+	}
+	h2 {
+		font-size: 1.953rem;
+	}
+	button {
+		margin-top: auto;
+		transform: scale(1.5);
+	}
+}

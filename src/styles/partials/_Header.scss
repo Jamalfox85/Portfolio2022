@@ -1,0 +1,40 @@
+.nav-wrapper {
+	width: 100%;
+	padding: 2em;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	.expand-menu {
+		.expand-menu-line {
+			height: 4px;
+			border-radius: 12px;
+			margin: 4px;
+			background-color: #999;
+			transition: 0.2s ease-in-out;
+			&#line-1 {
+				width: 16px;
+			}
+			&#line-2 {
+				width: 32px;
+			}
+			&#line-3 {
+				width: 16px;
+			}
+		}
+		&:hover {
+			cursor: pointer;
+			.expand-menu-line {
+				background-color: #fff;
+			}
+			#line-1 {
+				width: 32px;
+			}
+			#line-2 {
+				width: 16px;
+			}
+			#line-3 {
+				width: 32px;
+			}
+		}
+	}
+}
