@@ -8,10 +8,13 @@
 	color: #fff;
 	transition: 0.2s ease-in;
 	padding: 4px;
+	background-color: transparent;
 	&:hover {
 		background-color: #fff;
 		color: #000;
-		outline: solid 1px #fff;
+		outline: solid 2px #fff;
 		outline-offset: 4px;
+		border: solid 1px #999;
+		cursor: pointer;
 	}
 }

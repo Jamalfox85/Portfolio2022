@@ -8,9 +8,7 @@ const Header = () => {
 				<div className="expand-menu-line" id="line-2"></div>
 				<div className="expand-menu-line" id="line-3"></div>
 			</div>
-			<div>
-				<button className="contact-button">Contact</button>
-			</div>
+			<button className="contact-button">Contact</button>
 		</div>
 	);
 };

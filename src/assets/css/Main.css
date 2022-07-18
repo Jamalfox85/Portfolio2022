@@ -9,12 +9,15 @@
   color: #fff;
   transition: 0.2s ease-in;
   padding: 4px;
+  background-color: transparent;
 }
 .contact-button:hover {
   background-color: #fff;
   color: #000;
-  outline: solid 1px #fff;
+  outline: solid 2px #fff;
   outline-offset: 4px;
+  border: solid 1px #999;
+  cursor: pointer;
 }
 
 /* Components */
@@ -26,6 +29,10 @@
   align-items: center;
   position: absolute;
   top: 0;
+  background: transparent;
+}
+.nav-wrapper .expand-menu {
+  background: transparent;
 }
 .nav-wrapper .expand-menu .expand-menu-line {
   height: 4px;
