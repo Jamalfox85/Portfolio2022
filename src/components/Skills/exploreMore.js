@@ -56,7 +56,7 @@ const exploreMore = () => {
 						<div
 							key={item.name}
 							className="external-link-square"
-							style={{ backgroundColor: item.color }}
+							style={{ background: item.color }}
 						>
 							<img src={item.image} className="external-link-image" />
 							<p>{item.name}</p>

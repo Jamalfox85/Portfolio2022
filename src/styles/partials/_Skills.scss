@@ -6,7 +6,7 @@
 	justify-content: center;
 	.skills-content {
 		height: 80%;
-		width: 80%;
+		width: 100%;
 		display: flex;
 		flex-direction: column;
 		align-items: center;
@@ -25,6 +25,8 @@
 				display: flex;
 				flex-direction: column;
 				align-items: center;
+				background-color: rgba(255, 255, 255, 0.342);
+				backdrop-filter: blur(5px);
 				.grid-title {
 					font-size: 2.441rem;
 					margin-bottom: 1em;
@@ -51,9 +53,15 @@
 				grid-column: 1/2;
 				grid-row: 6/9;
 			}
+
+			/* Project Carousel */
 			.project-carousel-container {
 				grid-column: 2/6;
 				grid-row: 1/9;
+				.carousel-wrapper {
+					height: 100%;
+					width: 100%;
+				}
 			}
 			.background-image-container2 {
 				grid-column: 6/7;
@@ -72,7 +80,7 @@
 					.external-link-square {
 						height: 100px;
 						width: 100px;
-						margin: 1em;
+						margin: 0.5em;
 						display: flex;
 						flex-direction: column;
 						align-items: center;
